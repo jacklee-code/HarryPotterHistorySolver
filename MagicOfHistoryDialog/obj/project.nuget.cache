@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rPmAvD1Or5LKpIWV9DQxnhvZUAIixELDjMcm+Qagi97S3z8mFF53LMDoUGaBbqkZd7lHB2iFkiKCgaeD1t1SLQ==",
+  "success": true,
+  "projectFilePath": "E:\\Programming\\Python\\HarryPotterHistorySolver\\MagicOfHistoryDialog\\MagicOfHistoryDialog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leelo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512",
+    "C:\\Users\\leelo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\leelo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\leelo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

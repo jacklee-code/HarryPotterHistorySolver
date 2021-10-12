@@ -1,0 +1,15 @@
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.exe
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.deps.json
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.runtimeconfig.json
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.runtimeconfig.dev.json
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.dll
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.pdb
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.MainApp.resources
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.csproj.GenerateResource.cache
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.AssemblyInfoInputs.cache
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.AssemblyInfo.cs
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.csproj.CoreCompileInputs.cache
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.dll
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.pdb
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\obj\Release\netcoreapp3.1\win-x64\MagicOfHistoryDialog.genruntimeconfig.cache

@@ -1,0 +1,2 @@
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\MagicOfHistoryDialog.pdb
+E:\Programming\Python\HarryPotterHistorySolver\MagicOfHistoryDialog\bin\Release\MagicOfHistoryDialog.exe
