@@ -36,6 +36,7 @@ ScanResult = None
 QandA = {}
 reader = None
 
+_tempStatus = ScanMode
 
 COLOR_RED = (255, 0, 0)
 COLOR_GREEN = (0, 255, 0)
@@ -52,11 +53,14 @@ def SpamAnswer():
         time.sleep(0.04)
 
 def CallDialog():
+    global ScanMode
     # get question and answer
     question = ''.join(GetTextListInArea(QUESTION_BOX))
     answers = ';'.join([''.join(GetTextListInArea(pos)) for pos in ANSWER_BOXES])
     # call .exe
     os.system(f'{QUESTION_DIALOG_PROCESS} \"{question}\" \"{answers}\"')
+    ScanMode = _tempStatus
+
 
 
 def isAllSubstringsFindInKey(dict, sortedStringList):
@@ -82,6 +86,8 @@ def ConvertCsv2Dict(csv_filename):
         for line in fr:
             pair = line.split(';')
             pure_key, pure_value = RemoveAllPuncation(pair[0]), RemoveAllPuncation(pair[1]).replace('\n', '')
+            if len(pure_key) < 0:
+                continue
             if pure_key in dict.keys():
                 pure_key += str(random.random())
             dict[pure_key] = pure_value
@@ -183,6 +189,7 @@ def main():
     global ScanMode
     global reader
     global ScanResult
+    global _tempStatus
 
     print('Welcome to use Auto Answering Tool for Harry Potter : Magic Awakened.\n')
     print('Press F2 to auto answer question and spamming a random answer.')
@@ -261,6 +268,8 @@ def main():
         elif keyboard.is_pressed('f3'):
             if not was_pressed:
                 was_pressed = True
+                _tempStatus = ScanMode
+                ScanMode = False
                 windowThread = threading.Thread(target=CallDialog)
                 windowThread.start()
         elif keyboard.is_pressed('f4'):
