@@ -152,8 +152,9 @@ def ScanQuestion():
             print(f'question list {questionsNoPuncList}')
             print(f'answer list : {correctAnswerList}')
             print(f'completely pass? : {completelyCorrect}')
-
-        if correctAnswerList is not None and correctAnswerList != NO_ANSWER_IS_FOUND:
+        
+        # Anser List is not empty but no longer than 10 answers (prevent low speed)
+        if correctAnswerList is not None and correctAnswerList != NO_ANSWER_IS_FOUND and len(correctAnswerList[1]) < 10:
             #Check four answer box
             for index in range(0, len(ANSWER_BOXES)):
                 selectOption = ''.join(GetTextListInArea(ANSWER_BOXES[index]))
